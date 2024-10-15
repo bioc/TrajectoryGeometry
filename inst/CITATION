@@ -1,14 +1,24 @@
 citHeader("To cite TrajectoryGeometry in publications use:")
 
-citEntry(
-entry    = "misc",
-title    = 'TrajectoryGeometry',
-author   = 'Anna Laddach and Michael Shapiro',
-year     = '2020',
-url      = 'https://github.com/AnnaLaddach/TrajectoryGeometry',
-textVersion = paste('Anna Laddach and Michael Shapiro,',
-                    'TrajectoryGeometry: an R package for discovering',
-                    'directional change in gene expression,',
-                    'https://github.com/AnnaLaddach/TrajectoryGeometry')
+bibentry(
+    bibtype    = "article",
+    title      = "TrajectoryGeometry suggests cell fate decisions can involve branches rather than bifurcations",
+    author     =  c(person(given='Anna',family='Laddach'),
+        person(given='Vassilis',family='Pachnis'),
+        person(given='Michael',family='Shapiro')),
+    journal     = "NAR Genomics and Bioinformatics",
+    volume      = "6",
+    number      = "4",
+    pages       = "lqae139",
+    year        = "2024",
+    month       = "10",
+    issn        = "2631-9268",
+    doi         = "10.1093/nargab/lqae139",
+    url         = "https://doi.org/10.1093/nargab/lqae139",
+    eprint      = "https://academic.oup.com/nargab/article-pdf/6/4/lqae139/59638443/lqae139.pdf",
+    textVersion  = paste('Anna Laddach, Vassilis Pachnis, Michael Shapiro,',
+                         'TrajectoryGeometry suggests cell fate decisions can involve branches rather',
+                         'than bifurcations, NAR Genomics and Bioinformatics, Volume 6, Issue 4,',
+                         'December 2024, lqae139, https://doi.org/10.1093/nargab/lqae139')
 )
 
